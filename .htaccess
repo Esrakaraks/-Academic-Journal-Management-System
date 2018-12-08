@@ -1,0 +1,10 @@
+
+RewriteEngine On
+
+php_value upload_max_filesize 250M
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond $1 !^(config|core|css|js|fonts|robots\.txt)
+
+RewriteRule ^(.+)$ index.php/$1 [L]
