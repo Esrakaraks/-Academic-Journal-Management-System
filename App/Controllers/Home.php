@@ -17,7 +17,7 @@ class Home extends Controller {
 
     public function index() {
      
-       //$user = new User();
+       $user = new User();
       //  $yield['users'] = $user->getUsers();
        
        $this->view->render("Anasayfa/index"); //anasayfa görüntülendi
