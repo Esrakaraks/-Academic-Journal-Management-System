@@ -53,5 +53,6 @@
         <div class="container">
         <img src="/AkademikDer/uploads/images/tip.jpg"   width="200" height="259">
        </div>
+       <?php dnd($dergiler); ?>
     </body>
 </html>

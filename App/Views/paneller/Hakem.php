@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
@@ -10,8 +11,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     
     <style type="text/css">
-         body {background-image: url("blue2.jpeg");
-         background-color: #cccccc;}
+         body { background-color:#f1f1f1; color:white; }
+         p { font-family: Tahoma, Verdana; font-size: 12px; }
          a.btn btn-danger {
         -webkit-appearance: btn btn-danger;
         -moz-appearance:btn btn-danger;
@@ -26,17 +27,15 @@
     <body>
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <ul class="navbar-nav">
-        <div class="container">
-        <a class="navbar-brand" href="<?= URL_ROOT ?>/Home/index">FÜDERGİ</a>
-        
-        </a>
-        </div>
+            <ul class="navbar-nav">
+                <div class="container">
+                    <a class="navbar-brand" href="<?= URL_ROOT ?>/Home/index">FÜDERGİ</a>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= URL_ROOT ?>/Home/hakkinda">HAKKINDA</a>
+                </li>
         <li class="nav-item">
-        <a class="nav-link" href="<?= URL_ROOT ?>/Home/hakkinda">HAKKINDA</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="<?= URL_ROOT ?>/Home/dergiler">DERGİLER</a>
+        <a class="nav-link" href="<?= URL_ROOT ?>/Home/dergiler">n</a>
         </li>
 
         <li class="nav-item">
@@ -52,24 +51,33 @@
         </li>
 
         </ul>
-       
-        <a href="<?= URL_ROOT ?>/secenek/index" class="btn btn-outline-secondary">GİRİŞ</a>
-        
-       
+      
+     
+    
+        <a href = '<?= URL_ROOT ?>/HakemPanel/cikis'class="btn btn-info">ÇIKIŞ YAP</a>
         </nav>
         
-        </div><br>
+                    
+        <center>
         <div class="container">
-        <img src="/AkademikDer/uploads/images/tip.jpg"   class="rounded-" alt="Cinque Terre" width="170" height="236">
-       <img src="/AkademikDer/uploads/images/mühendis.jpg"   class="rounded" alt="Cinque Terre" width="170" height="236">
-       <img src="/AkademikDer/uploads/images/arastrma.png"   class="rounded" alt="Cinque Terre" width="170" height="236">
-       <img src="/AkademikDer/uploads/images/sosyal.png"   class="rounded" alt="Cinque Terre" width="170" height="236">
-     <img src="/AkademikDer/uploads/images/fen.jpg"   class="rounded" alt="Cinque Terre" width="170" height="236"><br>
-     <br><img src="/AkademikDer/uploads/images/iktisadi.jpg"   class="rounded" alt="Cinque Terre" width="170" height="236"><br>
+         <a href="<?= URL_ROOT ?>/HakemPanel/makaleler"class="btn btn-secondary btn-lg">Makaleler</a>
+         <a href="<?= URL_ROOT ?>/YazarPanel/kabuledilen" class="btn btn-success btn-lg">Kabul Edilen</a>
 
-       
-     </div>
+        <a href="<?= URL_ROOT ?>/YazarPanel/yayınlanan"class="btn btn-info btn-lg">Yayınlanan</a>
 
+        <a href="<?= URL_ROOT ?>/YazarPanel/reddedilen" class="btn btn-danger btn-lg">Reddedilen</a>
+
+        </div>
+        </center>
 
     </body>
 </html>
+
+
+
+
+
+
+
+
+

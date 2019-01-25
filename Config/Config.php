@@ -8,7 +8,7 @@ define('DEBUG_DATABASE', false);
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASS", "e");
-define("DB_NAME", "dergiyönetim");
+define("DB_NAME", "dergiyonetim");
 
 /* Default congifureation */
 define('DEFAULT_CONTROLLER', "Home");
@@ -27,7 +27,7 @@ define("URL_JS", URL_ASSETS . DS . "js");
 define("URL_IMG", URL_ASSETS . DS . "images");
 
 define("URL_UPLOADS", URL_ROOT . DS . "uploads");
-
+define("DIR_UPLOADS", DIR_ROOT . DS . "uploads");
 
 define("URL_CSS_BOOTSTRAP", URL_ASSETS . DS . "vendor" . DS . "bootstrap" . DS . "css" . DS . "bootstrap.min.css");
 

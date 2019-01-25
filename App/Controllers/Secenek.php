@@ -8,9 +8,6 @@ class Secenek extends Controller{
         $this->view->render("Anasayfa/secenek");
 
     }
-    public function form(){
-        $this->view->render("formlar/formhakem");
-
-    }
+    
 }
 ?>

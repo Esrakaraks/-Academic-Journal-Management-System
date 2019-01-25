@@ -57,19 +57,20 @@
         
        
         </nav>
-        
-        </div><br>
+
         <div class="container">
-        <img src="/AkademikDer/uploads/images/tip.jpg"   class="rounded-" alt="Cinque Terre" width="170" height="236">
-       <img src="/AkademikDer/uploads/images/mühendis.jpg"   class="rounded" alt="Cinque Terre" width="170" height="236">
-       <img src="/AkademikDer/uploads/images/arastrma.png"   class="rounded" alt="Cinque Terre" width="170" height="236">
-       <img src="/AkademikDer/uploads/images/sosyal.png"   class="rounded" alt="Cinque Terre" width="170" height="236">
-     <img src="/AkademikDer/uploads/images/fen.jpg"   class="rounded" alt="Cinque Terre" width="170" height="236"><br>
-     <br><img src="/AkademikDer/uploads/images/iktisadi.jpg"   class="rounded" alt="Cinque Terre" width="170" height="236"><br>
-
-       
-     </div>
-
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-group mt-5">
+                        <?php foreach($warnings as $warning): ?>
+                            <li class="list-group-item"><?= $warning ?></li>
+                        <?php endforeach ?>
+                    </ul>
+                    <a class="btn btn-primary" href="javascript:history.back()" > Geri Dön </a>
+                </div>
+            </div>
+        </div>
+          
 
     </body>
 </html>

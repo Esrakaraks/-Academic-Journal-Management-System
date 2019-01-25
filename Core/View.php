@@ -13,7 +13,7 @@ class View {
             if(!empty($yield)) {
                 extract($yield);
             }
-
+             
             include(DIR_ROOT . DS . "App" . DS . "Views" . DS . $viewFolder . DS . $viewFile . '.php');
             
         }else{

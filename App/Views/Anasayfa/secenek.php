@@ -54,18 +54,19 @@
         </ul>
         <a href="<?= URL_ROOT ?>/secenek/index" class="btn btn-outline-secondary">GİRİŞ</a>
        </nav>
+       
         
      
 
       <center>
        <ul class="navbar-nav">
          
-       <a href="<?= URL_ROOT ?>/secenek/form" class="btn btn-outline-secondary">HAKEM GİRİŞİ</a>
+       <a href="<?= URL_ROOT ?>/HakemPanel/form" class="btn btn-outline-secondary">HAKEM GİRİŞİ</a>
       
        
-       <a href="<?= URL_ROOT ?>/secenek/form" class="btn btn-outline-secondary">EDİTÖR GİRİŞİ</a>
+       <a href="<?= URL_ROOT ?>/EditorPanel/form" class="btn btn-outline-secondary">EDİTÖR GİRİŞİ</a>
       
-       <a href="<?= URL_ROOT ?>/secenek/form" class="btn btn-outline-secondary">YAZAR GİRİŞİ</a>
+       <a href="<?= URL_ROOT ?>/YazarPanel/form" class="btn btn-outline-secondary">YAZAR GİRİŞİ</a>
        
      </center>
 

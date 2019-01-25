@@ -5,7 +5,7 @@ use Core\Controller;
 use App\Models\User;
 use App\Views\Anasayfa\index;
 use App\Views\Anasayfa\hakkinda;
-
+//use App\Models\
 
 class Home extends Controller {
     
@@ -27,6 +27,7 @@ class Home extends Controller {
         
    }
    public function dergiler(){
+
     $this->view->render("Anasayfa/dergiler");
 
         

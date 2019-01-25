@@ -28,8 +28,8 @@ class Model {
         return $this->_db->selectFirst($this->_tables, $params);
     }
 
-    protected function insert($fields) {
-        $this->_tables = explode(" ", $this->_tables);
+    protected function insert($fields) { //bu veri deme değil mi.. Kanka bu değişken buranın. o değişken oranın. ismi aynı olan farklı sınıflarda bulunan değişken olamaz mı?
+        $this->_tables = explode(" ", $this->_tables);//tamma knka..
         $this->_tables = $this->_tables[0];
         return $this->_db->insert($this->_tables, $fields);
     }

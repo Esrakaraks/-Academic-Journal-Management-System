@@ -14,6 +14,11 @@ function go($address) {
     header("Location:" . $address);
 }
 
+function afterGo($address, $miliss) { //belirtilen süre sonra yönlendiren fonksiyon
+    header("Refresh:".$miliss."; url=". $address);
+
+}
+
 function turn() {
     if(isset($_SERVER['HTTP_REFERER'])) {
         header('Location: ' . $_SERVER['HTTP_REFERER']);

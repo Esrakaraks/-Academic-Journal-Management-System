@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-    <title>Bootstrap 4 Example</title>
+    <title>FÜDERRGİ</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -58,16 +58,22 @@
        
         </nav>
 
-        <form method="post" action = "<?= URL_ROOT ?>/secenek/giris_tamamla">
+        <form method="post" action = "<?= URL_ROOT ?>/HakemPanel/giris_tamamla">
            
             
-            E posta : <br/> <input type = "text" name = "email" placeholder="E Posta adresiniz giriniz"> <br/>
-            Şifre : <br/> <input type = "text" name = "sifre" placeholder="Şifrenizi giriniz"> <br/>
+            E posta : <br/> <input type = "text" name = "eposta" placeholder="E Posta adresiniz giriniz"> <br/>
+            Şifre : <br/> <input type = "password" name = "sifre" placeholder="Şifrenizi giriniz"> <br/>
             
-            <a href="<?= URL_ROOT ?>/HakemPanel/Hakem" class="btn btn-outline-secondary">GİRİŞ</a>
+            <button class="btn btn-outline-secondary">GİRİŞ</button>
+
         </form>
         
+        <center>
+        <p>FÜDERGİ:Kaydolarak dergilere kolayca makale gönderebilirsiniz.</p>
+        <a href="<?= URL_ROOT ?>/HakemPanel/kayitformu" class="btn btn-success">KAYDOL</a>
       
+       </center>
+
 
 
     </body>

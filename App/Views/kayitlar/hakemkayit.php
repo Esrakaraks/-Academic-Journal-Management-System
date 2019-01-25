@@ -57,19 +57,21 @@
         
        
         </nav>
+
+        <form method="post" action = "<?= URL_ROOT ?>/HakemPanel/kayit_ekle">
+           
+            
+            TC Kimlik No : <br/> <input type = "text" name = "tc" placeholder="TC Kimlik Numaranızı giriniz"> <br/>
+            Ad : <br/> <input type = "text" name = "adi" placeholder="Adınızı  giriniz"> <br/>
+            Soyad : <br/> <input type = "text" name = "soyadi" placeholder="Soyadınızı giriniz"> <br/>
+            Kullanıcı Adı : <br/> <input type = "text" name = "kullanici" placeholder="Kullanıcı Adınızı giriniz"> <br/>
+            E posta : <br/> <input type = "text" name = "email" placeholder="E Posta adresiniz giriniz"> <br/>
+            Şifre : <br/> <input type = "password" name = "password" placeholder="Şifrenizi giriniz"> <br/>
+            Uzmanlık Alanı :<br/> <input type = "text" name = "uzman" placeholder=" "> <br/>
+            <button class="btn btn-outline-secondary">KAYDOL</button>
+        </form>
         
-        </div><br>
-        <div class="container">
-        <img src="/AkademikDer/uploads/images/tip.jpg"   class="rounded-" alt="Cinque Terre" width="170" height="236">
-       <img src="/AkademikDer/uploads/images/mühendis.jpg"   class="rounded" alt="Cinque Terre" width="170" height="236">
-       <img src="/AkademikDer/uploads/images/arastrma.png"   class="rounded" alt="Cinque Terre" width="170" height="236">
-       <img src="/AkademikDer/uploads/images/sosyal.png"   class="rounded" alt="Cinque Terre" width="170" height="236">
-     <img src="/AkademikDer/uploads/images/fen.jpg"   class="rounded" alt="Cinque Terre" width="170" height="236"><br>
-     <br><img src="/AkademikDer/uploads/images/iktisadi.jpg"   class="rounded" alt="Cinque Terre" width="170" height="236"><br>
-
-       
-     </div>
-
+          
 
     </body>
 </html>

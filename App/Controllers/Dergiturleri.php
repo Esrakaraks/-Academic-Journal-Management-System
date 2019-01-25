@@ -10,6 +10,7 @@ use App\Views\Dergiler\fenbilimler;
 use App\Views\Dergiler\sosyalbilimler;
 use App\Views\Dergiler\tip;
 use App\Views\Dergiler\iktisadi;
+use App\Models\MakaleYaz;
 
 
 
@@ -29,7 +30,9 @@ class Dergiturleri extends Controller {
 
     }
     public function TıpDergisi(){
-        $this->view->render("Dergiler/tip"); 
+        $dergiModel = new MakaleYaz();
+        $data["dergiler"] = $dergiModel->dergileriGetir("c");
+        $this->view->render("Dergiler/tip", $data); 
 
     }
     public function DoguArastırmaDergisi(){
